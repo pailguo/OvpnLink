@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "OvpnLink — OpenVPN client for HarmonyOS PC"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "OvpnLink"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "OvpnLink (based on OpenVPN)"
+    }
+  ]
+}

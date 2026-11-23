@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "E:/deke_ws/project/OpenVPNNext/ovpnlink/debug.p12",
+          "storePassword": "0000001A04AAA23620A066985E28A27D44597871CA6E8578FF32266553D647FD50A6FA4811DFB5615748",
+          "keyAlias": "debug_new",
+          "keyPassword": "0000001A0E5EA424DD6BDE21D6446806D7F4A9E3CE0987274F58D922DA01CCFBDB3EC4ED529CA97EA482",
+          "signAlg": "SHA256withECDSA",
+          "profile": "E:/deke_ws/project/OpenVPNNext/ovpnlink/OvpnLinkDebug.p7b",
+          "certpath": "E:/deke_ws/project/OpenVPNNext/ovpnlink/Open source debug 2026.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "nativeCompiler": "BiSheng",
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
