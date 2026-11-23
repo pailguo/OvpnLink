@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "OpenVPN client for HarmonyOS PC"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "OpenVPN"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "OpenVPN"
+    }
+  ]
+}
